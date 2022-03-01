@@ -1,0 +1,78 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: monospace;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+header {
+	background-color: #D77FA1;
+	float: center;
+}
+
+header ul li {
+	display: inline-block;
+	font-size: 20px;
+}
+
+header ul li a {
+	padding: 25px 20px;
+	display: inline-block;
+}
+
+header ul li a:hover {
+	background-color: #FDEFF4;
+	color: #D77FA1;
+}
+
+.active {
+	background-color: #FDEFF4;
+	color: #D77FA1;
+}
+
+body {
+	text-align: center;
+	background-image: url(gambar/bg5.png);
+}
+
+img {
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid #D77FA1;
+}
+
+h1 {
+	font-size: 30px;
+	color: #D77FA1;
+	background-color: #FDEFF4;
+	margin-right: 500px;
+	margin-left: 500px;
+}
+
+p {
+	background-color: #FDEFF4;
+	font-size: 20px;
+	text-align: center;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+table {
+	width: 70%;
+	margin: auto;
+	font-size: 15px;
+	background-color: #FDEFF4;
+ }
+
+td, tr {
+ 	padding: 10px;
+ }
+
+ tr:nth-child(1) {
+ 	background-color: #D77FA1;
+ 	color: white;
+ }
